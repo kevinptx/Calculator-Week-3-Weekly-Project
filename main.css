@@ -1,0 +1,82 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h5 {
+  font-family: Helvetica;
+  font-weight: : 200;
+}
+
+div .button {
+  font-family: Helvetica;
+  font-weight: 800;
+  font-size: 3vh;
+}
+
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35vw;
+  height: 80vh;
+  color: white;
+  box-shadow: 7px 7px 5px gray;
+  margin: 50% 0 50% 0;
+}
+
+.button {
+  width: 25%;
+  border: 1px solid rgb(181,220,176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  background-color: rgb(97,179,79);
+}
+
+.display {
+  width: 75%;
+  border: 1px solid rgb(181,220,176);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5%;
+  background-color: rgb(97,179,79);
+}
+
+h1 .display {
+  margin: 0;
+}
+
+#modulo, #square-root {
+  width: 50%;
+}
+
+#modulo, #square-root, #divide,
+#multiply, #minus, #add {
+  background-color: rgb(130,194,118);
+  color: rgb(65,97,56);
+
+}
+
+footer {
+  padding: 3%;
+}
