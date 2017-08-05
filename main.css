@@ -29,7 +29,7 @@ h5 {
 div .button {
   font-family: Helvetica;
   font-weight: 800;
-  font-size: 3vh;
+  font-size: 4vh;
 }
 
 .calculator {
@@ -52,6 +52,23 @@ div .button {
   background-color: rgb(97,179,79);
 }
 
+.equal {
+  width: 25%;
+  border: 1px solid rgb(181,220,176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  background-color: rgb(97,179,79);
+  font-family: Helvetica;
+  font-weight: 800;
+  font-size: 4vh;
+}
+
+.clear:hover, .equal:hover {
+  background-color: rgb(130,194,118);
+}
+
 .display {
   width: 75%;
   border: 1px solid rgb(181,220,176);
@@ -60,23 +77,29 @@ div .button {
   align-items: center;
   padding: 5%;
   background-color: rgb(97,179,79);
+  font-family: Helvetica;
+  font-weight: 800;
+  font-size: 4vh;
 }
 
 h1 .display {
   margin: 0;
 }
-
-#modulo, #square-root {
+div .top {
   width: 50%;
-}
-
-#modulo, #square-root, #divide,
-#multiply, #minus, #add {
   background-color: rgb(130,194,118);
   color: rgb(65,97,56);
+}
 
+div .side{
+  background-color: rgb(130,194,118);
+  color: rgb(65,97,56);
 }
 
 footer {
-  padding: 3%;
+  padding: 5%;
+}
+
+.top:hover, .side:hover {
+  color: white;
 }
