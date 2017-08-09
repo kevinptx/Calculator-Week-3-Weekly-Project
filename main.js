@@ -49,7 +49,7 @@ equal.addEventListener("click", function(){
 sqrt.addEventListener("click", function(){
   let result = Math.sqrt(output)
   console.log(result)
-  display.textContent = result
+  display.textContent = result.toFixed(8)
 })
 
 //attempting modulo:
